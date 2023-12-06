@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input {
+    outline: none;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+button {
+    border-radius: 2px;
+    height: 25px;
+    width: 250px;
+    border: 1px solid white; 
+    background-color: white;
+    color: black;
+}
+
+#wrapper {
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+#box {
+    border: 2px solid white;
+    width: 400px;
+    height: 500px;
+}
