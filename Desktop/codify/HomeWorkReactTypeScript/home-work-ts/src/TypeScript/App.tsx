@@ -4,7 +4,17 @@ import { person } from './Person';
 import type { Person } from './Person'
 
 
-console.log('Result of addition:', add(10, 5));
-console.log('Result of subtraction:', subtract(10, 5));
+console.log(add(10, 5));
+console.log(subtract(10, 5));
 
-console.log('Person information:', person)
+console.log(person)
+
+const Log = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+export default Log
