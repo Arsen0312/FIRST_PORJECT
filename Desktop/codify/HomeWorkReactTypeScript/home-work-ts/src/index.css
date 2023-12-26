@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  color: "white"
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: "white"
+}
